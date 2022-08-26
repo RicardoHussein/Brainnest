@@ -175,7 +175,7 @@
     background-color: #3882f6;
     color: white;
     border: 1px solid white;
-    position: absolute;
+    position: relative;
     right: 400px;
     bottom: -500px;
     border-radius: 4px;
