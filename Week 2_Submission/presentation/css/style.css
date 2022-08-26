@@ -176,11 +176,10 @@
     color: white;
     border: 1px solid white;
     position: absolute;
-    right: 450px;
-    bottom: -350px;
+    right: 400px;
+    bottom: -500px;
     border-radius: 4px;
-    width: 90px;
-    
+    width: 90px; 
 }
 
 footer{
