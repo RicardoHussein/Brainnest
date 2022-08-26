@@ -175,6 +175,11 @@
     background-color: #3882f6;
     color: white;
     border: 1px solid white;
+    position: fixed;
+    right: 400px;
+    bottom: -500px;
+    border-radius: 4px;
+    width: 90px; 
 }
 
 footer{
