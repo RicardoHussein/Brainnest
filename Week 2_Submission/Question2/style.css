@@ -1,0 +1,19 @@
+h1{
+    color: aqua;
+}
+
+h2{
+    color: #0000ff;
+}
+
+h3{
+    color: rgb(255, 99, 71);
+}
+
+h4{
+    color: hsl(215, 67%, 63%);
+}
+
+div{
+    color: chartreuse;
+}

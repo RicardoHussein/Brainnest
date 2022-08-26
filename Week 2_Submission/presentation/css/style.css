@@ -1,0 +1,221 @@
+@font-face {
+    font-family: 'light_italic';
+    src: url(fonts/Roboto/Roboto-LightItalic.ttf);
+}
+
+
+.header{
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    position: relative;
+}
+
+.header_links{
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    position: absolute;
+    right: 125px;
+}
+
+.header_links a{
+    color: white;
+}
+
+#logo img{
+    
+    width: 100px;
+    height: 100px;
+    margin-left: 200px;
+    position: absolute;
+}
+
+.header_links > div{
+    margin: 10px;
+}
+
+.container{
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    margin-top: 100px;
+    position: relative;
+    height: 300px;
+}
+
+.awesome{
+    display: flex;
+    margin-right: 100px;
+    flex-direction: column;
+    position: absolute;
+    left: 200px;
+}
+
+.awesome div{
+    width: 400px;
+}
+
+#line1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+
+}
+
+#signup{
+    background-color: #3882f6;
+    color: white;
+    border: 5px solid #3882f6;
+    border-radius: 4px;
+    width: 90px;
+    
+}
+
+.placeholder{
+    display: flex;
+}
+
+.placeholder img{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    left: 1300px;
+}
+
+#random_info{
+    font-size: 36px;
+    font-weight: bolder;
+    color: 1f2937;
+    text-align: center;
+}
+
+.options{
+    display: flex;
+    justify-content: center;
+}
+
+.options > div{
+    margin: 20px;
+}
+
+.options img{
+    height: 150px;
+    width: 150px;
+}
+
+#burguer{
+    background-color: gainsboro;
+    padding-bottom: 20px;
+    border: 5px solid #1f2937;
+}
+
+#picanha{
+    background-color: gainsboro;
+    padding-bottom: 20px;
+    border: 5px solid #1f2937;
+}
+
+#chicken{
+    background-color: gainsboro;
+    padding-bottom: 20px;
+    border: 5px solid #1f2937;
+}
+
+#hot_dog{
+    background-color: gainsboro;
+    padding-bottom: 20px;
+    border: 5px solid #1f2937;
+}
+
+.quote
+{
+    margin-bottom: 60px;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-family: 'light_italic';
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding: 100px;
+    padding-bottom: 150px;
+}
+
+.quote p{
+    font-weight: bold;
+    position: absolute;
+    margin-left: 1200px;
+}
+
+.call_to_action_wrap{
+    background-color: white;
+    padding: 100px;
+}
+
+.call_to_action{
+    background-color: #3882f6;
+    color: white;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height:100px;
+    margin-left: 400px;
+    padding: 50px;
+    padding-bottom: 25px;
+}
+
+#call_to_action_line1
+{
+    font-weight: bold;
+}
+
+#signup1
+{
+    background-color: #3882f6;
+    color: white;
+    border: 1px solid white;
+    position: absolute;
+    right: 500px;
+    bottom: -430px;
+    border-radius: 4px;
+    width: 90px;
+    
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: white;
+    position: relative;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #3882f6;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+   
+  /* Add a background color and some padding around the form */
+  .contact_form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }

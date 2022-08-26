@@ -1,0 +1,17 @@
+body{
+    background-color: aquamarine;
+}
+
+.explanation{
+    color: brown;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 40px;
+}
+
+img{
+    border: 5px solid white;
+}
+
+#artificial_intelligence{
+    border-radius: 50%;
+}
