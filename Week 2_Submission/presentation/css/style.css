@@ -175,9 +175,12 @@
     background-color: #3882f6;
     color: white;
     border: 1px solid white;
-    position: fixed;
-    bottom: 100px;
-    right: 100px;
+    position: absolute;
+    right: 500px;
+    bottom: -430px;
+    border-radius: 4px;
+    width: 90px;
+    
 }
 
 footer{
