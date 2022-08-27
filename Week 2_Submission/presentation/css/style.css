@@ -3,6 +3,11 @@
     src: url(fonts/Roboto/Roboto-LightItalic.ttf);
 }
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 
 .header{
     display: flex;
@@ -11,7 +16,7 @@
     position: relative;
 }
 
-.header_links{
+nav{
     display: flex;
     background-color: #1f2937;
     color: white;
@@ -19,8 +24,9 @@
     right: 125px;
 }
 
-.header_links a{
+nav a{
     color: white;
+    text-decoration: none;
 }
 
 #logo img{
@@ -31,7 +37,7 @@
     position: absolute;
 }
 
-.header_links > div{
+nav > div{
     margin: 10px;
 }
 
@@ -128,7 +134,7 @@
     border: 5px solid #1f2937;
 }
 
-.quote
+blockquote
 {
     margin-bottom: 60px;
     background-color: #e5e7eb;
@@ -141,7 +147,7 @@
     padding-bottom: 150px;
 }
 
-.quote p{
+blockquote span{
     font-weight: bold;
     position: absolute;
     margin-left: 1200px;
@@ -157,17 +163,22 @@
     color: white;
     margin-bottom: 30px;
     display: flex;
-    flex-direction: column;
     width: 800px;
     height:100px;
     margin-left: 400px;
     padding: 50px;
     padding-bottom: 25px;
+    justify-content: center;
 }
 
-#call_to_action_line1
+.call_to_action > div{
+    flex: 0%;
+}
+
+#call_to_action_lines
 {
     font-weight: bold;
+    flex: 3;
 }
 
 #signup1
@@ -175,11 +186,7 @@
     background-color: #3882f6;
     color: white;
     border: 1px solid white;
-    position: absolute;
-    right: 500px;
-    bottom: -430px;
-    border-radius: 4px;
-    width: 90px;
+    flex: 1;
     
 }
 
@@ -189,6 +196,8 @@ footer{
     background-color: #1f2937;
     color: white;
     position: relative;
+    padding-top:30px;
+    padding-bottom: 10px;
 }
 
 /* Style inputs with type="text", select elements and textareas */
