@@ -88,8 +88,17 @@ function game()
     {    
         computerSelection = computerPlay();
         playerSelection = prompt("Insert Rock, Paper or Scissors");
-        console.log(playRound(playerSelection, computerSelection))
-        console.log("Player " + playerwins + " - Computer " + computerwins)
+        if(playerSelection.toLowerCase() === "rock" || playerSelection.toLowerCase() === "paper" || playerSelection.toLowerCase() === "scissors")
+        {
+            console.log(playRound(playerSelection, computerSelection))
+            console.log("Player " + playerwins + " - Computer " + computerwins)
+        }
+
+        else
+        {
+            alert("Your input is incorrect. Please insert Rock, Paper or Scissors")
+            i--;
+        }
     }
 
     if(playerwins > computerwins)
