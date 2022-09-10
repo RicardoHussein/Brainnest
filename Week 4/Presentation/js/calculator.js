@@ -74,6 +74,7 @@ minusButton.addEventListener('click',() =>{
                 if(parseInt(cummulativeCut[cummulativeCut.length - 1]) != 0)
                 {
                     total = total / parseInt(cummulativeCut[cummulativeCut.length - 1]);
+                    total = parseFloat(total.toPrecision(5));
                 }
 
                 else
@@ -157,6 +158,7 @@ plusButton.addEventListener('click',() =>{
                 if(parseInt(cummulativeCut[cummulativeCut.length - 1]) != 0)
                 {
                     total = total / parseInt(cummulativeCut[cummulativeCut.length - 1]);
+                    total = parseFloat(total.toPrecision(5));
                 }
 
                 else
@@ -242,6 +244,7 @@ divideButton.addEventListener('click',() =>{
                 if(parseInt(cummulativeCut[cummulativeCut.length - 1]) != 0)
                 {
                     total = total / parseInt(cummulativeCut[cummulativeCut.length - 1]);
+                    total = parseFloat(total.toPrecision(5));
                 }
 
                 else
@@ -270,7 +273,7 @@ divideButton.addEventListener('click',() =>{
             firstOperand = output.textContent;
             if(firstOperand.includes("."))
             {
-                firstNumber = parseFloat(firstOperand);
+                firstNumber = parseFloat(firstOperand.toPrecision(5));
             }
             else
             {
@@ -327,6 +330,7 @@ multiplyButton.addEventListener('click',() =>{
                 if(parseInt(cummulativeCut[cummulativeCut.length - 1]) != 0)
                 {
                     total = total / parseInt(cummulativeCut[cummulativeCut.length - 1]);
+                    total = parseFloat(total.toPrecision(5));
                 }
 
                 else
@@ -527,7 +531,7 @@ function multiply(firstNumber, secondNumber)
 function divide(firstNumber, secondNumber)
 {
     //Should address the long decimals matter
-    return firstNumber / (secondNumber);   
+    return parseFloat((firstNumber / (secondNumber)).toPrecision(5));   
 }
 
 function operate(firstNumber, secondNumber, operations)
