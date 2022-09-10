@@ -418,6 +418,8 @@ dotButton.addEventListener('click',() =>{
 });
 
 equalButton.addEventListener('click',() =>{
+
+    //Must put condition that the element before the = is a number
     if(total < firstNumber && counter < 1)
     {
         output.textContent += '\r\n';
@@ -429,6 +431,7 @@ equalButton.addEventListener('click',() =>{
         firstOperand ="";
         secondOperand ="";
         total = 0;
+        counter = 0;
     }
 
     else
@@ -445,6 +448,7 @@ equalButton.addEventListener('click',() =>{
         firstOperand ="";
         secondOperand ="";
         total = 0;
+        counter = 0;
     }
     //alert(expressionCut[1])
     //alert(firstNumber)
@@ -522,6 +526,7 @@ function multiply(firstNumber, secondNumber)
 
 function divide(firstNumber, secondNumber)
 {
+    //Should address the long decimals matter
     return firstNumber / (secondNumber);   
 }
 
