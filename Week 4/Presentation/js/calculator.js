@@ -463,7 +463,10 @@ equalButton.addEventListener('click',() =>{
 
 number0Button.addEventListener('click',() =>{
     //output.textContent += '\r\n';
-    output.textContent += "0";    
+    if(output.textContent != "0")
+    {
+        output.textContent += "0";
+    }    
 });
 
 number1Button.addEventListener('click',() =>{
