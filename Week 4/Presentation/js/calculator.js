@@ -89,9 +89,9 @@ minusButton.addEventListener('click',() =>{
             if(output.textContent != "")
             {
                 output.textContent += '\r\n';
-                output.textContent += "* ";
+                output.textContent += "- ";
                 output.textContent += '\r\n';
-                operations = '*';
+                operations = '-';
                 counter = 1;
             }
         }
@@ -172,9 +172,9 @@ plusButton.addEventListener('click',() =>{
             if(output.textContent != "")
             {
                 output.textContent += '\r\n';
-                output.textContent += "* ";
+                output.textContent += "+ ";
                 output.textContent += '\r\n';
-                operations = '*';
+                operations = '+';
                 counter = 1;
             }
             //alert(total)
@@ -257,9 +257,9 @@ divideButton.addEventListener('click',() =>{
             if(output.textContent != "")
             {
                 output.textContent += '\r\n';
-                output.textContent += "* ";
+                output.textContent += "/ ";
                 output.textContent += '\r\n';
-                operations = '*';
+                operations = '/';
                 counter = 1;
             }
             //alert(total)
